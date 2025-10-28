@@ -1,0 +1,78 @@
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[aspectratio=169,12.5pt,xcolor=dvipsnames]{beamer}
+\usetheme{SimpleDarkBlue}
+
+\usepackage{hyperref}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{nicematrix}
+
+%----------------------------------------------------------Alguns setups
+%----------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%    TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{Relatório primeira prática}
+\subtitle{Elétron : partícula (razão de sua carga e massa) : onda (difração Debye-Scherrer polycrystalline lattice)}
+
+\author{João Vítor Lima de Oliveira
+\\
+Guilherme Aranha}
+
+\institute
+{
+    Instituto de Física de São Carlos
+    \\
+    Universidade de São Paulo % Your institution for the title page
+}
+\date{\today} % Date, can be changed to a custom date
+
+%----------------------------------------------------------------------------------------
+%    PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\begin{frame}
+    % Print the title page as the first slide
+    \titlepage
+\end{frame}
+
+\begin{frame}{Sumário}
+    % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+    \tableofcontents
+\end{frame}
+
+%------------------------------------------------
+\input{seções/motivacao.tex}
+%------------------------------------------------
+\input{seções/objetivos.tex}
+%------------------------------------------------
+\input{seções/metodologia.tex}
+%------------------------------------------------
+\input{seções/resultados.tex}
+%------------------------------------------------
+
+\begin{frame}{Bibleografia}
+    \footnotesize
+    \bibliography{reference.bib}
+    \bibliographystyle{apalike}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+    \Huge{\centerline{\textbf{Obrigado!}}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
