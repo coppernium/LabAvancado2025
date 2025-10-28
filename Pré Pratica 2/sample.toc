@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Motivação}{3}{0}{1}
+\beamer@sectionintoc {2}{Objetivos}{6}{0}{2}
+\beamer@sectionintoc {3}{Metodologia}{8}{0}{3}
+\beamer@sectionintoc {4}{Resultados esperados}{13}{0}{4}
